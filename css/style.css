@@ -1,0 +1,50 @@
+
+html {
+
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+}
+
+nav {
+	width: 100%;
+	margin: 0;
+  	background-color: #333;
+  	flex-wrap: wrap;
+  	justify-content: space-between;
+}
+
+nav li {
+	display: flex;
+	list-style-type: none;
+	width: 100%;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0.8em;
+	color: #ddd;
+	border-bottom: solid 4px #333;
+}
+
+nav ul:hover {
+	background-color: GreenYellow;
+	color: DarkGreen;
+	border-bottom: solid 4px GreenYellow;
+}
+
+.nav-active {
+	border-bottom: solid 4px GreenYellow;
+}
+
+nav a {
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+main {
+	margin: 0 10%;
+}
