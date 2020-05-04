@@ -1,4 +1,3 @@
-
 @media screen and (max-width: 600px) { 
 
   nav {
@@ -9,6 +8,8 @@ main {
 	margin-top: 60px;
 }
 
+/* Le code qui suit n'es pas de moi, j'ai néamoins 
+pris le temps de le décortiquer un maximum */
 #menuToggle {
   display: block;
   position: absolute;
