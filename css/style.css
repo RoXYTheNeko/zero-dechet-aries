@@ -20,10 +20,11 @@ nav ul {
 	display: flex;
 	list-style-type: none;
 	width: 100%;
+	margin: 0;
+
 }
 
 nav li {
-	margin: 0;
 	padding: 0.8em;
 	color: #ddd;
 	border-bottom: solid 4px #333;

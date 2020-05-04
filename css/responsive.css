@@ -5,11 +5,15 @@
   	display: none;
   }
 
+main {
+	margin-top: 60px;
+}
+
 #menuToggle {
   display: block;
-  position: relative;
-  top: 50px;
-  left: 50px;
+  position: absolute;
+  top: 25px;
+  left: 25px;
   z-index: 1;
   -webkit-user-select: none;
   user-select: none;
@@ -86,9 +90,7 @@
   transform: rotate(0deg) scale(0.2, 0.2);
 }
 
-/*
- * Ohyeah and the last one should go the other direction
- */
+/* Formation d'une croix */
 #menuToggle input:checked ~ span:nth-last-child(2) {
   transform: rotate(-45deg) translate(0, -1px);
 }
