@@ -16,20 +16,20 @@ nav {
   	justify-content: space-between;
 }
 
-nav li {
+nav ul {
 	display: flex;
 	list-style-type: none;
 	width: 100%;
 }
 
-nav ul {
+nav li {
 	margin: 0;
 	padding: 0.8em;
 	color: #ddd;
 	border-bottom: solid 4px #333;
 }
 
-nav ul:hover {
+nav li:hover {
 	background-color: GreenYellow;
 	color: DarkGreen;
 	border-bottom: solid 4px GreenYellow;
@@ -44,6 +44,10 @@ nav a {
 	text-transform: uppercase;
 	text-align: center;
 }
+
+#menuToggle { 
+    display: none;
+} 
 
 main {
 	margin: 0 10%;
