@@ -8,7 +8,7 @@ main {
 	margin-top: 60px;
 }
 
-/* Le code qui suit n'es pas de moi, j'ai néamoins 
+/* Le code qui suit n'est pas de moi, j'ai néamoins 
 pris le temps de le décortiquer un maximum */
 #menuToggle {
   display: block;
@@ -28,7 +28,7 @@ pris le temps de le décortiquer un maximum */
 }
 
 #menuToggle a:hover {
-  color: DarkGreen;
+  color: YellowGreen;
 }
 
 
@@ -42,8 +42,8 @@ pris le temps de le décortiquer un maximum */
   
   cursor: pointer;
   
-  opacity: 0; /* hide this */
-  z-index: 2; /* and place it over the hamburger */
+  opacity: 0; 
+  z-index: 2; 
   
   -webkit-touch-callout: none;
 }
