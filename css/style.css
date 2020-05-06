@@ -19,8 +19,8 @@ nav {
 nav ul {
 	display: flex;
 	list-style-type: none;
-	width: 100%;
-	margin: 0;
+	width: 90%;
+	margin: 0 8%;
 
 }
 
@@ -52,6 +52,13 @@ nav a {
 #menuToggle { 
     display: none;
 } 
+
+.banner {
+  	object-fit: cover;
+  	height: 400px;
+  	width: 80%;
+	margin: 20px 0 -10px 10%;
+}
 
 main {
 	margin: 0 10%;

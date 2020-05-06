@@ -3,10 +3,17 @@
   nav {
   	display: none;
   }
+ .banner {
+  	object-fit: cover;
+  	height: 300px;
+  	width: 90%;
+	margin: 80px 5% -30px 5%;
+}
 
 main {
 	margin-top: 60px;
 }
+
 
 /* Le code qui suit n'est pas de moi, j'ai néamoins 
 pris le temps de le décortiquer un maximum */
