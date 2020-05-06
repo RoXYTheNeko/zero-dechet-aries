@@ -124,7 +124,7 @@ main {
 footer {
 	bottom: 0;
 	width: 100%;
-	margin: 0;
+	margin: 10px 0 0 0;
   	background-color: #333;
   	flex-wrap: wrap;
   	justify-content: space-between;
@@ -132,6 +132,7 @@ footer {
 
 footer p {
 	padding: 0.8em;
+	margin: 0 10%;
 	color: #ddd;
 	margin-bottom: 0;
 	font-weight: bold;
